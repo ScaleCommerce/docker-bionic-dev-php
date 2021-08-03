@@ -19,7 +19,7 @@ RUN apt-get update && \
     add-apt-repository ppa:dhor/myway && \
     apt-get update && \
     apt-get -y install --no-install-recommends curl nano ca-certificates unzip git software-properties-common pkg-config \
-    libvips42 libvips-tools libvips-dev \
+    libvips42 libvips-tools libvips-dev openssh-server \
     apache2 \
     php${PHP} php${PHP}-dev php-pear \
     libapache2-mod-php${PHP} \
